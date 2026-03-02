@@ -1,0 +1,11 @@
+name: Manual Run
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Workflow berhasil jalan!"
